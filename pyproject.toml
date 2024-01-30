@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "social-parser"
+version = "0.1.0"
+description = "script for parsing social servises"
+authors = ["OleksandrGnatiuk <oleksandr.gnatiuk@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "social_parser"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^3.3.0"
+dotenv = "^0.0.5"
+snscrape = "^0.7.0.20230622"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
