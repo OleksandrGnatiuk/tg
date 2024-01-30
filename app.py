@@ -65,7 +65,7 @@ async def get_channel(message: types.Message):
         await bot.send_message(chat_id=message.from_user.id, text="Супер, копіювання постів завершено")
 
     except:
-        await bot.send_message(chat_id=message.from_user.id, text="Неправильний формат. Натисти /post_from_telegram, щоб побачити правильний формат вводу")
+        await bot.send_message(chat_id=message.from_user.id, text="Неправильний формат. Натисни /post_from_telegram, щоб побачити правильний формат вводу")
 
 
 async def main():
